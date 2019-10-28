@@ -1,9 +1,9 @@
 package model.exceptions;
 
-public class DomainException extends RuntimeException { //com 'RuntimeException' o compilador n„o obriga a tratar 
+public class DomainException extends RuntimeException { //com 'RuntimeException' o compilador n√£o obriga a tratar 
 	private static final long serialVersionUID = 1L; 
 
-	public DomainException(String msg) { //permitir intanciar a exceÁ„o personalizada, passando uma msg para ela (msg armazenada dentro da exceÁ„o)
+	public DomainException(String msg) { //permitir instanciar a exce√ß√£o personalizada, passando uma msg para ela (msg armazenada dentro da exce√ß√£o)
 		super(msg);
 	}
 }
